@@ -1,0 +1,62 @@
+.btn{
+	display: inline-flex;
+	border: none;
+	transition: all $t;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	align-items: center;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	border-radius: $r;
+	background: $primary;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 33px;
+	border: 2px solid transparent;
+	text-transform: uppercase;
+	position: relative;
+	-webkit-appearance: none;
+	font-weight: bold;
+
+	&:hover{
+		background: darken($primary, 10%);
+	}
+
+	[class^="icon-"], [class*=" icon-"]{
+		&:first-child{
+			margin-right: 13px;
+		}
+
+		&:last-child{
+			margin-left: 13px;
+		}
+	}
+
+	&.btn-light{
+		border-color: $primary;
+		background: transparent;
+		color: $primary;
+
+		&:hover{
+			background: $primary;
+			color: #fff;
+		}
+	}
+
+	&.wide{
+		min-width: 205px;
+	}
+
+	&.fullwidth{
+		width: 100%;
+	}
+
+	@media screen and (max-width: 575px){
+		&.xs-fullwidth{
+			width: 100%;
+		}
+	}
+}

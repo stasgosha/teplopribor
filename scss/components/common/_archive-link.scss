@@ -1,0 +1,28 @@
+.archive-link{
+	display: flex;
+	align-items: center;
+
+	i{
+		&:first-child{
+			margin-right: 11px;
+		}
+
+		&:last-child{
+			margin-left: 11px;
+		}
+	}
+
+	span{
+		color: $primary;
+		font-size: 19px;
+		line-height: 22px;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	&:hover{
+		span{
+			text-decoration: none;
+		}
+	}
+}

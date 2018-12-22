@@ -1,0 +1,97 @@
+.innovations-card{
+	border-radius: $r;
+	background: rgba(#000, .51);
+	padding: 32px 30px 40px;
+
+	.card-header{
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+
+		.header-number{
+			flex: none;
+			width: 95px;
+			font-size: 74px;
+			line-height: 54px;
+			margin-top: -4px;
+			color: $primary;
+			font-weight: bold;
+			letter-spacing: -0.05em;
+		}
+
+		.header-content{
+			.item-caption,
+			.item-subcaption{
+				font-size: 24px;
+				line-height: 36px;
+				color: #fff;
+			}
+
+			.item-caption{
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+
+			.item-subcaption{
+				font-weight: 300;
+			}
+		}
+	}
+
+	.card-content{
+		color: #fff;
+	}
+
+	@media screen and (max-width: 575px){
+		padding: 30px 20px;
+
+		.card-header{
+			.header-number{
+				width: 65px;
+				font-size: 52px;
+			}
+
+			.header-content{
+				.item-caption,
+				.item-subcaption{
+					font-size: 18px;
+					line-height: 24px;
+				}
+
+				.item-subcaption{
+					font-size: 15px;
+				}
+			}
+		}
+
+		.card-content{
+			height: calc(24px * 6); // 6 lines
+
+			.mCSB_container{
+				margin-right: 20px;
+			}
+
+			.mCSB_scrollTools{
+				width: 2px;
+				opacity: 1;
+
+				.mCSB_dragger_bar{
+					width: 2px;
+					border-radius: 0;
+					background: $primary !important;
+				}
+
+				.mCSB_draggerRail{
+					background: rgba(#000, .39);
+					width: 2px;
+					border-radius: 0;
+				}
+			}
+
+			.mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical,
+			.mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+				margin: 0;
+			}
+		}
+	}
+}

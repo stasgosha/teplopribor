@@ -1,0 +1,19 @@
+.products-slider{
+	@media screen and (min-width: 768px){
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+		display: flex;
+
+		.slide{
+			padding: 0 15px;
+			width: 33.33333%;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.slide{
+			height: 353px;
+		}
+	}
+}

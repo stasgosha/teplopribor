@@ -1,0 +1,159 @@
+.branding-section{
+	padding: 115px 0 180px;
+	background: url(../img/branding/section-bg.png) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	min-height: 680px;
+	overflow: hidden;
+
+	@media screen and (max-width: 1199px){
+		min-height: 620px;
+		padding-bottom: 120px;
+	}
+
+	@media screen and (max-width: 991px){
+		min-height: 0;
+		padding-top: 36px;
+		padding-bottom: 150px;
+	}
+
+	@media screen and (max-width: 767px){
+		padding-bottom: 300px;
+	}
+
+	@media screen and (max-width: 575px){
+		padding-bottom: 200px;
+	}
+}
+
+.branding-inner{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	color: #fff;
+
+	.branding-content{
+		width: 350px;
+
+		.branding-label{
+			margin-top: 60px;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	.branding-image{
+		position: absolute !important;
+		bottom: -20px;
+		left: calc(50% - 350px);
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+
+		@media screen and (max-width: 1199px){
+			width: 420px;
+			left: calc(50% - 270px);
+		}
+
+		@media screen and (max-width: 991px){
+			width: 380px;
+			left: calc(50% - 170px);
+		}
+
+		@media screen and (max-width: 575px){
+			width: 230px;
+			left: calc(50% - 120px);
+		}
+	}
+
+	.branding-advantages{
+		width: 280px;
+		margin-top: 110px;
+
+		@media screen and (max-width: 991px){
+			width: 140px;
+			margin-top: 0;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		flex-direction: column;
+		align-items: stretch;
+
+		.branding-advantages{
+			width: 100%;
+			padding-left: 22px;
+		}
+	}
+}
+
+.branding-advantages-list{
+	list-style: none;
+
+	li{
+		padding-left: 22px;
+		position: relative;
+		margin-bottom: 55px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		&:before{
+			content: '';
+			display: block;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background: $primary;
+			box-shadow: 0 0 24px rgba($primary, .47);
+			position: absolute;
+			left: 0;
+			top: 7px;
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			height: 1px;
+			background: rgba(#fff, .32);
+			position: absolute;
+			right: calc(100% + 8px);
+			top: 11px;
+		}
+
+		&:nth-child(1){
+			&:after{
+				width: 92px;
+			}
+		}
+
+		&:nth-child(2){
+			&:after{
+				width: 68px;
+			}
+		}
+
+		&:nth-child(3){
+			&:after{
+				width: 43px;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			margin-bottom: 20px;
+
+			&:after{
+				width: 60px !important;
+			}
+		}
+	}
+}

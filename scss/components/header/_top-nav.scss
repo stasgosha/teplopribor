@@ -1,0 +1,43 @@
+.top-nav{
+	list-style: none;
+	display: flex;
+	align-items: center;
+
+	li{
+		margin-right: 15px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		a{
+			font-size: 16px;
+			line-height: 40px;
+			display: block;
+			color: $text-color;
+			text-decoration: none;
+
+			&:hover{
+				color: $primary;
+			}
+		}
+
+		&.current-menu-item,
+		&.current-menu-parent{
+			a{
+				color: $primary;
+			}
+		}
+
+		&.current-menu-item{
+			a{
+				cursor: default;
+			}
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

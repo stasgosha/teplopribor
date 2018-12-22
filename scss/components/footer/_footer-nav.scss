@@ -1,0 +1,41 @@
+.footer-nav{
+	list-style: none;
+
+	li{
+		a{
+			font-size: 15px;
+			line-height: 30px;
+			color: $text-color;
+			transition: all $t;
+			text-decoration: none;
+
+			&:hover{
+				color: $primary;
+			}
+		}
+
+		&.current-menu-item{
+			> a{
+				color: $primary;
+				cursor: default;
+			}
+		}
+
+		&.current-menu-parent{
+			> a{
+				color: $primary;
+			}
+		}
+
+		.sub-menu{
+			list-style: none;
+		}
+	}
+
+	> li{
+		> a{
+			font-weight: bold;
+			white-space: nowrap;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+.menu-opener{
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	width: 24px;
+
+	.bar{
+		width: 24px;
+		height: 4px;
+		border-radius: 2px;
+		margin-bottom: 3px;
+		background: $dark;
+		transition: all $t;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&.active{
+		.bar{
+			&:nth-child(1){
+				transform-origin: 2px 2px;
+				transform: rotate(45deg);
+				width: 24px;
+			}
+
+			&:nth-child(2){
+				transform: rotateY(90deg);
+			}
+
+			&:nth-child(3){
+				transform-origin: 2px 2px;
+				transform: rotate(-45deg);
+				width: 24px;
+			}
+		}
+	}
+}

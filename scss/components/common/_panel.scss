@@ -1,0 +1,77 @@
+// Panel
+.panel{
+	overflow: hidden;
+	height: 100vh;
+	background: #fff;
+	position: relative;
+	z-index: 1000;
+	transition: all $t;
+
+	&[style*="right: 0px"]{
+		box-shadow: $shadow;
+	}
+
+	.panel-inner{
+		padding: 50px 0 25px;
+		height: 100vh;
+		overflow-y: auto;
+		overflow-x: hidden !important;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.panel-nav{
+		list-style: none;
+		width: 100%;
+		padding: 0 35px 25px;
+		flex: auto;
+
+		li{
+			margin-bottom: 25px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			a{
+				font-size: 13px;
+				line-height: 23px;
+				text-transform: uppercase;
+				color: $text-color;
+				font-weight: bold;
+
+				&:hover{
+					color: $primary;
+				}
+			}
+
+			&.current-menu-item,
+			&.current-menu-parent{
+				a{
+					color: $primary;
+				}
+			}
+
+			&.current-menu-item{
+				cursor: default;
+			}
+		}
+	}
+
+	.panel-content{
+		padding: 25px 25px 25px 35px;
+		flex: none;
+		position: relative;
+
+		&:before{
+			content: '';
+			display: block;
+			width: calc(100% - 35px);
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 1px;
+			background: #ebebeb;
+		}
+	}
+}

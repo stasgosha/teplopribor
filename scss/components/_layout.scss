@@ -1,0 +1,120 @@
+$section-padding: 85px;
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0;
+}
+
+html{
+	font-size: 15px;
+	line-height: 24px;
+}
+
+body{
+	color: $text-color;
+	font-family: $main-font;
+	background: $body-bg;
+}
+
+a, button{
+	text-decoration: none;
+	transition: all $t;
+	outline: none !important;
+	border: none;
+}
+
+a img{
+	outline: none !important;
+	border: none !important;
+}
+
+.wrapper{
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 103px;
+
+	@media screen and (max-width: 991px){
+		padding-top: 50px;
+	}
+
+	@media screen and (max-width: 575px){
+		padding-top: 87px;
+	}
+
+	.page{
+		flex: auto;
+	}
+
+	.footer{
+		flex: none;
+	}
+
+	.post-content{
+		padding-bottom: 80px;
+	}
+}
+
+.section-default-top-padding{
+	padding-top: $section-padding;
+}
+
+.section-default-bottom-padding{
+	padding-bottom: $section-padding;
+}
+
+.section-default-paddings{
+	padding: $section-padding 0;
+}
+
+@media screen and (max-width: 767px){
+	.scrollable-container{
+		.scrollable-container-inner{
+			width: 100%;
+			overflow: auto;
+		}
+	}
+}
+
+.modal{
+	.modal-content{
+		.modal-body{
+			padding: 30px 35px 50px;
+		}
+	}
+
+	.modal-dialog{
+		margin-top: 60px;
+
+		@media screen and (max-width: 575px){
+			width: calc(100% - 30px);
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	.modal-close{
+		position: absolute;
+		right: -22px;
+		top: -22px;
+		z-index: 5;
+		border-radius: 50%;
+		cursor: pointer;
+
+		i{
+			display: block;
+			cursor: pointer;
+		}
+	}
+
+	&.narrow{
+		.modal-dialog{
+			max-width: 340px;
+		}
+	}
+}

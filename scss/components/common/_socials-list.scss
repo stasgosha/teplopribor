@@ -1,0 +1,28 @@
+.socials-list{
+	list-style: none;
+	display: flex;
+	align-items: center;
+
+	li{
+		margin-right: 6px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		a{
+			display: flex;
+			width: 44px;
+			height: 44px;
+			border-radius: 50%;
+			transition: all $t;
+			background: #f3f3f3;
+			align-items: center;
+			justify-content: center;
+
+			&:hover{
+				background: $primary;
+			}
+		}
+	}
+}

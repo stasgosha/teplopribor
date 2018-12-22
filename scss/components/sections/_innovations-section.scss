@@ -1,0 +1,161 @@
+.innovations-section{
+	background: url(../img/backgrounds/innovations-section-bg.jpg) no-repeat center top;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+
+	.section-image{
+		position: absolute;
+		right: calc(50% - 947px);
+		top: 0;
+		max-width: 100%;
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.container{
+		position: relative;
+		z-index: 2;
+	}
+
+	@media screen and (max-width: 991px){
+		padding-top: 280px;
+
+		.section-image{
+			right: auto;
+			left: -10px;
+			max-width: calc(100% + 10px);
+		}
+	}
+}
+
+.innovations-list{
+	list-style: none;
+	margin-top: 50px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+
+	li{
+		position: relative;
+		margin-bottom: 25px;
+		padding-left: 100px;
+		font-size: 19px;
+		line-height: 24px;
+		font-weight: bold;
+		color: #fff;
+		text-transform: uppercase;
+		transition: all $t;
+		cursor: pointer;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			left: 67px;
+			top: 6px;
+			transition: all $t;
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			width: 60px;
+			height: 1px;
+			background: rgba(#fff, .32);
+			position: absolute;
+			left: 0;
+			top: 10px;
+		}
+
+		&:hover{
+			color: $primary;
+		}
+
+		&.current{
+			color: $primary;
+
+			&:before{
+				background: $primary;
+				box-shadow: 0 0 24px rgba($primary, .47);
+			}
+		}
+	}
+}
+
+.innovations-slider{
+	margin-top: 50px;
+
+	.slide{
+		outline: none !important;
+	}
+
+	.slick-arrow{
+		position: absolute;
+		right: -63px !important;
+		left: auto;
+		bottom: 0;
+		top: auto;
+		width: 48px;
+		height: 48px;
+		transition: all $t;
+		border-radius: 50%;
+		background: rgba(#000, .14);
+		transform: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 18px;
+			height: 11px;
+			background: url(../img/icons/slider-arrows.png) no-repeat;
+		}
+
+		&:hover{
+			background: rgba(#fff, .15);
+		}
+
+		&.slick-prev{
+			bottom: 58px;
+
+			&:before{
+				background-position: 0 0;
+				margin-top: -3px;
+			}
+
+			&:hover{
+				&:before{
+					background-position: -18px 0;
+				}
+			}
+		}
+
+		&.slick-next{
+			&:before{
+				background-position: 0 -11px;
+				margin-bottom: -3px;
+			}
+
+			&:hover{
+				&:before{
+					background-position: -18px -11px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		margin-top: 0;
+	}
+}

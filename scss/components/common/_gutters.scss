@@ -1,0 +1,73 @@
+$gutters: (
+	no: 0,
+	tiny: 5px,
+	small: 10px,
+	normal: 15px,
+	medium: 20px,
+	big: 25px,
+	large: 30px,
+	great: 35px,
+	huge: 40px,
+	giant: 50px
+);
+
+$sides: (
+	top: 'top',
+	right: 'right',
+	bottom: 'bottom',
+	left: 'left'
+);
+
+@mixin gutters-generator($prefix){
+	@each $i in $gutters{
+		$gutter-key: nth($i, 1);
+		$gutter-value: nth($i, 2);
+
+		@each $j in $sides{
+			#{$prefix}margin-#{$gutter-key} {
+				margin: $gutter-value !important;
+			}
+			#{$prefix}padding-#{$gutter-key} {
+				padding: $gutter-value !important;
+			}
+		}
+	}
+
+	@each $i in $gutters{
+		$gutter-key: nth($i, 1);
+		$gutter-value: nth($i, 2);
+
+		@each $j in $sides{
+			$side-key: nth($j, 1);
+			#{$prefix}margin-#{$side-key}-#{$gutter-key} {
+				margin-#{$side-key}: $gutter-value !important;
+			}
+			#{$prefix}padding-#{$side-key}-#{$gutter-key} {
+				padding-#{$side-key}: $gutter-value !important;
+			}
+		}
+	}
+}
+
+@include gutters-generator('.');
+@include gutters-generator('.xs-');
+
+// @media screen and (min-width: 575px){
+	
+// }
+
+@media screen and (min-width: 576px){
+	@include gutters-generator('.sm-');
+}
+
+@media screen and (min-width: 768px){
+	@include gutters-generator('.md-');
+}
+
+@media screen and (min-width: 992px){
+	@include gutters-generator('.lg-');
+}
+
+@media screen and (min-width: 1200px){
+	@include gutters-generator('.xl-');
+}

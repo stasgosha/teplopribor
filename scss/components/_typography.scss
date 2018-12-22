@@ -1,0 +1,154 @@
+// .tpl- - prefix for typography
+
+body{
+	font-size: 15px;
+	line-height: 1.6;
+	color: $text-color;
+	font-family: $main-font;
+}
+
+.tpl-typography p,
+body .tpl-body-1,
+.tpl-note{
+	font-size: 15px;
+	line-height: 1.6;
+	margin: 0 0 1.6em;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+body .tpl-body-2{
+	font-weight: bold;
+}
+
+.tpl-text-link{
+	font-size: 15px;
+	line-height: 1.6;
+	text-decoration: underline;
+	color: $text-color;
+
+	&:hover{
+		color: $primary;
+	}
+}
+
+time{
+	display: flex;
+	position: relative;
+	align-items: center;
+
+	&:after{
+		content: '';
+		display: block;
+		width: 3px;
+		height: 3px;
+		border-radius: 50%;
+		background: $primary;
+		margin-left: 4px;
+	}
+}
+
+body .tpl-note{
+	font-size: 10px;
+	line-height: 1.667em;
+	color: #a2a2a2;
+	text-transform: uppercase;
+}
+
+body .tpl-display-1{
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 300;
+	margin-bottom: 30px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 575px){
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
+
+.tpl-typography h1,
+body .tpl-h1{
+	font-size: 40px;
+	line-height: 1.5;
+	font-weight: 700;
+	margin: 0 0 25px;
+	text-transform: uppercase;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 575px){
+		font-size: 24px;
+	}
+}
+
+.tpl-typography h2,
+body .tpl-h2{
+	font-size: 40px;
+	line-height: 1.125;
+	font-weight: 700;
+	margin: 0 0 25px;
+	text-transform: uppercase;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 575px){
+		font-size: 24px;
+	}
+}
+
+// .tpl-typography h3,
+// body .tpl-h3{
+// 	font-size: 18px;
+// 	line-height: 1.178;
+// 	margin: 0 0 1.178em;
+// 	font-weight: 400;
+
+// 	&:last-child{
+// 		margin-bottom: 0;
+// 	}
+// }
+
+
+.tpl-typography h4,
+.tpl-typography h5,
+.tpl-typography h6,
+body .tpl-h4,
+body .tpl-h5,
+body .tpl-h6{
+	font-size: 18px;
+	line-height: 20px;
+	margin: 0 0 1.5em;
+	font-weight: 700;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.section-caption{
+	margin-bottom: 30px;
+	padding-top: 10px;
+	position: relative;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 60px;
+		height: 2px;
+		background: $primary;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}

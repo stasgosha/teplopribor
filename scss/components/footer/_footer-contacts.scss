@@ -1,0 +1,33 @@
+.footer-contacts{
+	display: flex;
+	list-style: none;
+	align-items: flex-start;
+
+	li{
+		margin-right: 30px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	@media screen and (min-width: 1200px){
+		li{
+			margin-right: 50px;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		flex-direction: column;
+		align-items: stretch;
+
+		li{
+			margin-right: 0;
+			margin-bottom: 24px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}

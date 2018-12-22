@@ -1,0 +1,15 @@
+.recommended-section{
+	.recommended-section-image{
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.recommended-section-content{
+			margin-bottom: 30px;
+		}
+	}
+}
