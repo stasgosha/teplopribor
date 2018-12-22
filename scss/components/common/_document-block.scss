@@ -9,14 +9,13 @@
 	cursor: pointer;
 	position: relative;
 	color: $text-color;
-	overflow: hidden;
 
 	.block-content,
 	.block-hidden-content{
 		flex: auto;
 		display: flex;
 		align-items: center;
-		padding: 15px 5px;
+		padding: 13px 5px;
 
 		i{
 			flex: none;
@@ -42,6 +41,45 @@
 		.block-hidden-content{
 			transform: scale(1);
 			opacity: 1;
+		}
+	}
+
+	&.left-arrow{
+		max-width: 270px;
+		border-radius: 0 $r $r 0;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 35px;
+			height: 110px;
+			background: url(../img/document-left-arrow.png) no-repeat;
+			position: absolute;
+			right: 100%;
+			top: 0;
+		}
+
+		.block-hidden-content{
+			&:before{
+				content: '';
+				display: block;
+				width: 29px;
+				height: 90px;
+				background: url(../img/document-left-arrow-inner.png) no-repeat;
+				position: absolute;
+				right: 100%;
+				top: 0;
+			}
+		}
+
+		@media screen and (max-width: 991px){
+			border-radius: $r;
+			max-width: 320px;
+
+			&:before,
+			.block-hidden-content:before{
+				display: none;
+			}
 		}
 	}
 }

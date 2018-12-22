@@ -51,7 +51,7 @@
 						<ul class="footer-nav">
 							<li><a href="#">Где купить?</a></li>
 							<li><a href="#">Дилерам</a></li>
-							<li><a href="#">Контакты</a></li>
+							<li><a href="contacts.php">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -88,11 +88,11 @@
 		<div class="panel-inner">
 			<ul class="panel-nav">
 				<li><a href="#">Продукция</a></li>
-				<li><a href="#">О производстве</a></li>
+				<li><a href="about.php">О производстве</a></li>
 				<li><a href="#">Информация</a></li>
 				<li><a href="#">Где купить?</a></li>
 				<li><a href="#">Дилерам</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li><a href="contacts.php">Контакты</a></li>
 			</ul>
 			<div class="panel-content">
 				<p class="tpl-body-1">601220, Владимирская обл., <br>Ставрово пгт., ул. <br>Октябрьская д.118</p>

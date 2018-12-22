@@ -13,7 +13,7 @@
 					<div class="dsc-right wow fadeInDown d-none d-lg-block" data-wow-delay="0.3s">
 						<div class="send-request">
 							<button class="btn">Отправить заявку</button>
-							<a href="tel:88002229376" class="phone-link white"><span>8 800</span> 222-93-76</a>
+							<a href="tel:88002229376" class="phone-link white big"><span>8 800</span> 222-93-76</a>
 						</div>
 					</div>
 				</div>
