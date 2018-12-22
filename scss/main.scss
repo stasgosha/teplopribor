@@ -16,6 +16,7 @@
 @import "components/sections/news-section";
 @import "components/sections/contacts-section";
 @import "components/sections/recommended-section";
+@import "components/sections/page-header";
 
 // Footer
 @import "components/footer/footer";
@@ -38,3 +39,6 @@
 @import "components/common/socials-list";
 @import "components/common/menu-opener";
 @import "components/common/products-slider";
+@import "components/common/breadcrumbs";
+@import "components/common/tabs-nav";
+@import "components/common/document-block";

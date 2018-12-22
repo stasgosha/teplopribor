@@ -94,7 +94,7 @@ $(document).ready(function(){
 		var location = window.location.href;
 		var cur_url = location.split('/').pop();
 
-		$('.top-nav li, .panel-nav li, .footer-nav li').each(function () {
+		$('.top-nav li, .panel-nav li, .footer-nav li, .tabs-nav li').each(function () {
 			var link = $(this).find('a').attr('href');
 
 			// console.log(link);

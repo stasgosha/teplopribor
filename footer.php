@@ -27,7 +27,7 @@
 					<div class="footer-block">
 						<ul class="footer-nav">
 							<li>
-								<a href="#">О производстве</a>
+								<a href="about.php">О производстве</a>
 								<ul class="sub-menu">
 									<li><a href="#">История</a></li>
 									<li><a href="#">Этапы производства</a></li>
@@ -42,7 +42,7 @@
 								<ul class="sub-menu">
 									<li><a href="#">Преимущества</a></li>
 									<li><a href="#">Монтаж</a></li>
-									<li><a href="#">Документация</a></li>
+									<li><a href="documents.php">Документация</a></li>
 								</ul>
 							</li>
 						</ul>

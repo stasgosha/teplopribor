@@ -1,0 +1,17 @@
+.page-header{
+	background: url(../img/branding/section-bg.png) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 15px 0;
+	color: #fff;
+	margin-bottom: 65px;
+
+	.page-title{
+		margin-bottom: 10px;
+		line-height: 1.2;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}

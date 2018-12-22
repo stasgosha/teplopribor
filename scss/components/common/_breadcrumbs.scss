@@ -1,0 +1,35 @@
+.breadcrumbs{
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 10px;
+
+	li{
+		font-size: 13px;
+		line-height: 20px;
+		display: flex;
+		align-items: center;
+		color: #b1b0b3;
+
+		&:after{
+			content: "/";
+			display: block;
+			margin: 0 6px;
+		}
+
+		&:last-child{
+			&:after{
+				display: none;
+			}
+		}
+
+		a{
+			color: #b1b0b3;
+
+			&:hover{
+				color: $primary;
+			}
+		}
+	}
+}
