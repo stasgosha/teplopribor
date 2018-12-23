@@ -1,29 +1,26 @@
-.products-slider{
+.accessories-slider{
 	@media screen and (min-width: 768px){
 		width: calc(100% + 30px);
 		margin-left: -15px;
 		margin-right: -15px;
 		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: -30px;
 
 		.slide{
 			padding: 0 15px;
-			width: 33.33333%;
-			display: flex;
+			width: 50%;
+			margin-bottom: 30px;
 		}
 	}
 
 	@media screen and (max-width: 767px){
-		margin-top: -30px;
-		margin-bottom: -30px;
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
 
 		.slide{
-			height: 353px;
-			margin-top: 30px;
-			margin-bottom: 30px;
-		}
-
-		.slick-dots{
-			bottom: 6px;
+			padding: 0 15px;
 		}
 	}
 }

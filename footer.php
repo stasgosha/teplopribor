@@ -49,8 +49,8 @@
 					</div>
 					<div class="footer-block">
 						<ul class="footer-nav">
-							<li><a href="#">Где купить?</a></li>
-							<li><a href="#">Дилерам</a></li>
+							<li><a href="where-buy.php">Где купить?</a></li>
+							<li><a href="for-dealers.php">Дилерам</a></li>
 							<li><a href="contacts.php">Контакты</a></li>
 						</ul>
 					</div>
@@ -89,9 +89,9 @@
 			<ul class="panel-nav">
 				<li><a href="#">Продукция</a></li>
 				<li><a href="about.php">О производстве</a></li>
-				<li><a href="#">Информация</a></li>
-				<li><a href="#">Где купить?</a></li>
-				<li><a href="#">Дилерам</a></li>
+				<li><a href="documents.php">Информация</a></li>
+				<li><a href="where-buy.php">Где купить?</a></li>
+				<li><a href="for-dealers.php">Дилерам</a></li>
 				<li><a href="contacts.php">Контакты</a></li>
 			</ul>
 			<div class="panel-content">
@@ -132,6 +132,8 @@
 	<script defer src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script defer src="js/bootstrap.bundle.min.js"></script>
 	<script defer src="js/bigSlide.min.js"></script>
+	<script defer src="js/jcf.js"></script>
+	<script defer src="js/jcf.select.js"></script>
 	<script defer src="js/scripts.js"></script>
 	<?php // wp_footer(); ?>
 </body>

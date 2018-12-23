@@ -7,7 +7,7 @@
 				</div>
 			</div>
 			<div class="item wow fadeInRight d-none d-sm-block" data-wow-delay="0.2s">
-				<a href="#" class="archive-link">
+				<a href="#" class="go-to-link">
 					<i class="icon-newspaper"></i>
 					<span>Архив новостей</span>
 					<i class="icon-arrow-right"></i>
@@ -28,7 +28,7 @@
 			<?php endfor; ?>
 		</div>
 		<div class="d-sm-none wow fadeInUp">
-			<a href="#" class="archive-link">
+			<a href="#" class="go-to-link">
 				<i class="icon-newspaper"></i>
 				<span>Архив новостей</span>
 				<i class="icon-arrow-right"></i>

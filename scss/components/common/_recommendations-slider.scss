@@ -1,4 +1,4 @@
-.products-slider{
+.recommendations-slider{
 	@media screen and (min-width: 768px){
 		width: calc(100% + 30px);
 		margin-left: -15px;
@@ -7,12 +7,12 @@
 
 		.slide{
 			padding: 0 15px;
-			width: 33.33333%;
+			width: 25%;
 			display: flex;
 		}
 	}
 
-	@media screen and (max-width: 767px){
+	@media screen and (max-width: 991px){
 		margin-top: -30px;
 		margin-bottom: -30px;
 

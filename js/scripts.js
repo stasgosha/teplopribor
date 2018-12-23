@@ -38,6 +38,14 @@ $(document).ready(function(){
 		$(this).addClass('current').siblings().removeClass('current');
 	});
 
+	// Product Images
+	$('[data-big-image]').click(function(){
+		$('.big-image img').attr('src', $(this).data('big-image'));
+		$(this).addClass('selected').siblings().removeClass('selected');
+	});
+
+	$('[data-big-image]:first-child').click();
+
 	// Products Slider
 	var productsSliderFlag = false;
 
@@ -58,13 +66,92 @@ $(document).ready(function(){
 		}
 	};
 
+	var recommendationsSliderFlag = false;
+
+	function recommendationsSliderInit(){
+		if ( $(window).width() <= 991 && !recommendationsSliderFlag) {
+			$('.recommendations-slider').slick({
+				infinite: true,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				dots: true,
+				arrows: false,
+				responsive: [
+					{
+						breakpoint: 767,
+						settings: {
+							slidesToShow: 2
+						}
+					},
+					{
+						breakpoint: 575,
+						settings: {
+							slidesToShow: 1
+						}
+					}
+				]
+			});
+
+			recommendationsSliderFlag = true;
+		} else if($(window).width() > 991 && recommendationsSliderFlag) {
+			$('.recommendations-slider').slick('unslick');
+			recommendationsSliderFlag = false;
+		}
+	};
+
+	var accessoriesSliderFlag = false;
+
+	function accessoriesSliderInit(){
+		if ( $(window).width() <= 767 && !accessoriesSliderFlag) {
+			$('.accessories-slider').slick({
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				dots: true,
+				arrows: false
+			});
+
+			accessoriesSliderFlag = true;
+		} else if($(window).width() > 767 && accessoriesSliderFlag) {
+			$('.accessories-slider').slick('unslick');
+			accessoriesSliderFlag = false;
+		}
+	};
+
 	if ( $(window).width() <= 767 ){
 		productsSliderInit();
+		accessoriesSliderInit();
+	}
+
+	if ( $(window).width() <= 991 ){
+		productsSliderInit();
+		recommendationsSliderInit();
 	}
 
 	$(window).resize(function(){
 		productsSliderInit();
+		recommendationsSliderInit();
+		accessoriesSliderInit();
 	});
+
+	// Tabs
+	$("[data-tab]").click(function(e){
+		e.preventDefault();
+		var dest = $( $(this).data('tab') );
+		dest.stop().fadeIn(300).siblings().hide(0);
+		$(this).addClass('current').siblings().removeClass('current');
+	});
+
+	$("[data-tab].current").click();
+
+	// Select Field
+	jcf.setOptions('Select', {
+		wrapNative: false,
+		wrapNativeOnMobile: true,
+		fakeDropInBody: false
+	});
+
+	jcf.replace( $('.select select') );
 
 	// Sticky Header
 	var isSticky = false;

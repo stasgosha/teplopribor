@@ -1,0 +1,50 @@
+.accessories-block{
+	display: flex;
+	padding: 30px 20px;
+	border-radius: $r;
+	background: #fff;
+	align-items: center;
+
+	.block-image{
+		width: 220px;
+		flex: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 30px;
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.block-content{
+		flex: auto;
+
+		.block-params{
+			margin-bottom: 15px;
+
+			> .item{
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 8px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		flex-direction: column;
+		align-items: stretch;
+
+		.block-image{
+			width: 100%;
+			margin-bottom: 30px;
+		}
+	}
+}

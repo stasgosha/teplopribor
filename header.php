@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/jcf.css">
 	<link rel="stylesheet" href="css/main.css">
 	<?php //wp_head(); ?>
 </head>
@@ -32,11 +33,11 @@
 						<div class="header-block d-none d-lg-block">
 							<ul class="top-nav">
 								<li><a href="#">Продукция</a></li>
-								<li><a href="#">О производстве</a></li>
-								<li><a href="#">Информация</a></li>
-								<li><a href="#">Где купить?</a></li>
-								<li><a href="#">Дилерам</a></li>
-								<li><a href="#">Контакты</a></li>
+								<li><a href="about.php">О производстве</a></li>
+								<li><a href="documents.php">Информация</a></li>
+								<li><a href="where-buy.php">Где купить?</a></li>
+								<li><a href="for-dealers.php">Дилерам</a></li>
+								<li><a href="contacts.php">Контакты</a></li>
 							</ul>
 						</div>
 						<div class="header-block header-phone">

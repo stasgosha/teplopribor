@@ -24,11 +24,13 @@
 					</li>
 				</ol>
 				<h1 class="tpl-h1 page-title">Информация</h1>
-				<ul class="tabs-nav">
-					<li><a href="documents.php">Документы</a></li>
-					<li><a href="#">Монтаж радиаторов</a></li>
-					<li><a href="#">Новости</a></li>
-				</ul>
+				<div class="mCustomScrollbar margin-bottom-normal" data-mcs-theme="dark" data-mcs-axis="x" style="width: 100%;">
+					<ul class="tabs-nav">
+						<li><a href="documents.php">Документы</a></li>
+						<li><a href="#">Монтаж радиаторов</a></li>
+						<li><a href="#">Новости</a></li>
+					</ul>
+				</div>
 			</div>
 		</section>
 		<div class="inner-page-wrapper">

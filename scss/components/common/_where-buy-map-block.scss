@@ -1,0 +1,51 @@
+.where-buy-map-block{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: -80px;
+
+	.where-buy-form{
+		width: 300px;
+		flex: none;
+		margin-right: 30px;
+
+		.form-row{
+			margin-bottom: 45px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			.select{
+				width: 100%;
+				max-width: 300px;
+			}
+		}
+	}
+
+	.where-buy-map{
+		flex: auto;
+		display: flex;
+		justify-content: center;
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 767px){
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+
+		.where-buy-form{
+			width: 100%;
+			margin-bottom: 10px;
+			margin-right: 0;
+		}
+	}
+}
