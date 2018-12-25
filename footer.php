@@ -12,7 +12,7 @@
 							<a href="#" class="tpl-text-link">Заказать звонок</a>
 						</span>
 					</div>
-					<div class="footer-block">
+					<!-- <div class="footer-block">
 						<ul class="footer-nav">
 							<li>
 								<a href="#">Продукция</a>
@@ -23,7 +23,7 @@
 								</ul>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 					<div class="footer-block">
 						<ul class="footer-nav">
 							<li>
@@ -87,7 +87,6 @@
 	<nav id="menu" class="panel">
 		<div class="panel-inner">
 			<ul class="panel-nav">
-				<li><a href="#">Продукция</a></li>
 				<li><a href="about.php">О производстве</a></li>
 				<li><a href="documents.php">Информация</a></li>
 				<li><a href="where-buy.php">Где купить?</a></li>
@@ -112,18 +111,40 @@
 			</div>
 		</div>
 	</nav>
-	<!-- <div class="modal fade narrow" tabindex="-1" role="dialog" id="modal-">
+	<div class="modal fade narrow" tabindex="-1" role="dialog" id="modal-order">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-body">
 					<div class="modal-close" data-dismiss="modal" aria-label="Close">
 						<i class="icon icon-close"></i>
 					</div>
-					MODAL CONTENT
+					<div class="modal-caption">
+						<h4 class="tpl-h4">Отправить заявку</h4>
+					</div>
+					<form action="#" class="modal-form form">
+						<div class="form-row">
+							<div class="input-field">
+								<input type="text" placeholder="Ваше имя">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="input-field">
+								<input type="tel" placeholder="Ваш телефон">
+							</div>
+						</div>
+						<div class="form-row margin-bottom-large">
+							<div class="textarea">
+								<textarea placeholder="Комментарий"></textarea>
+							</div>
+						</div>
+						<div class="form-row">
+							<button class="btn fullwidth" type="submit">Отправить</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>

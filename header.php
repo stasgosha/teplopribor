@@ -32,7 +32,6 @@
 						</div>
 						<div class="header-block d-none d-lg-block">
 							<ul class="top-nav">
-								<li><a href="#">Продукция</a></li>
 								<li><a href="about.php">О производстве</a></li>
 								<li><a href="documents.php">Информация</a></li>
 								<li><a href="where-buy.php">Где купить?</a></li>

@@ -93,6 +93,7 @@
 
 .innovations-slider{
 	margin-top: 50px;
+	margin-right: 63px;
 
 	.slide{
 		outline: none !important;
@@ -110,7 +111,7 @@
 		border-radius: 50%;
 		background: rgba(#000, .14);
 		transform: none;
-		display: flex;
+		display: flex !important;
 		align-items: center;
 		justify-content: center;
 
@@ -119,7 +120,7 @@
 			display: block;
 			width: 18px;
 			height: 11px;
-			background: url(../img/icons/slider-arrows.png) no-repeat;
+			background: url(../img/icons/icons-sprite.png) no-repeat -109px -218px;
 		}
 
 		&:hover{
@@ -130,29 +131,33 @@
 			bottom: 58px;
 
 			&:before{
-				background-position: 0 0;
+				background-position: -109px -218px;
 				margin-top: -3px;
 			}
 
 			&:hover{
 				&:before{
-					background-position: -18px 0;
+					background-position: -127px -218px;
 				}
 			}
 		}
 
 		&.slick-next{
 			&:before{
-				background-position: 0 -11px;
+				background-position: -109px -229px;
 				margin-bottom: -3px;
 			}
 
 			&:hover{
 				&:before{
-					background-position: -18px -11px;
+					background-position: -127px -229px;
 				}
 			}
 		}
+	}
+
+	@media screen and (max-width: 991px){
+		margin-right: 0;
 	}
 
 	@media screen and (max-width: 575px){

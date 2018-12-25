@@ -11,7 +11,7 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="d-none d-lg-block col-lg-5 col-xl-7">
+			<div class="d-none d-lg-block col-lg-5 col-xl-6">
 				<div class="section-caption color-white wow fadeInLeft">
 					<h3 class="tpl-h2">Инновации</h3>
 				</div>
@@ -22,8 +22,8 @@
 					<li class="wow fadeInLeft" data-slide="3" data-wow-delay="0.4s">Add power</li>
 				</ul>
 			</div>
-			<div class="col-lg-7 col-xl-5">
-				<div class="innovations-slider wow fadeInRight">
+			<div class="col-lg-7 col-xl-6"><!-- wow fadeInRight -->
+				<div class="innovations-slider">
 					<div class="slide">
 						<div class="innovations-card">
 							<div class="card-header">

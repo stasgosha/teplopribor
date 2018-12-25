@@ -40,7 +40,7 @@
 				position: absolute;
 				left: 5px;
 				top: 6px;
-				background: url(../img/icons/tick.png) no-repeat;
+				background: url(../img/icons/icons-sprite.png) no-repeat -153px -218px;
 				width: 12px;
 				height: 9px;
 				transform: scale(0);
@@ -58,39 +58,60 @@
 	}
 }
 
-// .input-field,
-// .textarea{
-// 	height: 44px;
-// 	font-size: 20px;
-// 	line-height: 28px;
-// 	font-weight: 300;
-// 	width: 100%;
-// 	outline: none !important;
-// 	transition: all $t;
-// 	color: #000;
-// 	background: transparent;
-// 	border: none;
-// 	border-bottom: 2px solid #000;
-// 	font-family: $main-font;
-// 	-webkit-appearance: none;
+.form{
+	.form-row{
+		margin-bottom: 10px;
 
-// 	&:focus{
-// 		border-bottom-color: $primary;
-// 	}
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
 
-// 	&::placeholder{
-// 		color: $text-color;
-// 	}
+.input-field,
+.textarea{
+	input,
+	textarea{
+		padding: 0 20px;
+		height: 40px;
+		font-size: 15px;
+		line-height: 20px;
+		width: 100%;
+		outline: none !important;
+		transition: all $t;
+		color: $text-color;
+		background: #f9f9f9;
+		border: 1px solid #cdcdcd;
+		font-family: $main-font;
+		-webkit-appearance: none;
+		border-radius: 5px;
 
-// 	&:disabled{
-// 		background: #212833;
-// 	}
+		&:focus{
+			border-color: $primary;
+		}
 
-// 	&.error{
-// 		border-color: red;
-// 		color: red;
-// 	}
-// }
+		&::placeholder{
+			color: $text-color;
+		}
+
+		&:disabled{
+			background: #212833;
+		}
+
+		&.error{
+			border-color: red;
+			color: red;
+		}
+	}
+}
+
+.textarea{
+	textarea{
+		height: 90px;
+		padding: 10px 20px;
+		resize: none;
+	}
+}
 
 .select{
 	display: inline-flex;
@@ -135,7 +156,7 @@
 			display: block;
 			width: 16px;
 			height: 10px;
-			background: url(../img/icons/opener.png) no-repeat;
+			background: url(../img/icons/icons-sprite.png) no-repeat -88px -217px;
 			transition: all $t;
 		}
 	}

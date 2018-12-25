@@ -73,14 +73,14 @@
 							</ul>
 						</div>
 						<div class="col-lg-5 wow fadeInUp margin-top-large lg-margin-no" data-wow-delay="0.2s">
-							<img src="//placeimg.com/470/500/any" alt="" class="rounded img-responsive d-none d-lg-block">
-							<img src="//placeimg.com/720/500/any" alt="" class="rounded img-responsive d-lg-none">
+							<img src="img/for-dealers/image-1.jpg" alt="" class="rounded img-responsive d-none d-lg-block">
+							<img src="img/for-dealers/image-1-big.jpg" alt="" class="rounded img-responsive d-lg-none">
 						</div>
 					</div>
 					<div class="row section-default-top-padding flex-column-reverse flex-lg-row">
 						<div class="col-lg-7 wow fadeInUp">
-							<img src="//placeimg.com/635/396/any" alt="" class="rounded img-responsive d-none d-lg-block">
-							<img src="//placeimg.com/720/396/any" alt="" class="rounded img-responsive d-lg-none">
+							<img src="img/for-dealers/image-2.jpg" alt="" class="rounded img-responsive d-none d-lg-block">
+							<img src="img/for-dealers/image-2-big.jpg" alt="" class="rounded img-responsive d-lg-none">
 						</div>
 						<div class="col-lg-5 tpl-typography wow fadeInUp margin-bottom-large lg-margin-no" data-wow-delay="0.2s">
 							<h3>Рекламная поддержка</h3>

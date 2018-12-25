@@ -2,118 +2,125 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	background: url(../img/icons/icons-sprite.png);
 }
 
 .icon-newspaper{
 	width: 24px;
 	height: 20px;
-	background: url(../img/icons/newspaper.png) no-repeat;
+	background-position: -59px -217px;
 }
 
 .icon-board{
 	width: 24px;
 	height: 24px;
-	background: url(../img/icons/board.png) no-repeat;
+	background-position: -205px -218px;
 }
 
 .icon-arrow-right{
 	width: 23px;
 	height: 11px;
-	background: url(../img/icons/arrow-right.png) no-repeat;
+	background-position: -173px -218px;
 }
 
 .icon-location-big{
 	width: 64px;
 	height: 64px;
-	background: url(../img/icons/location-big.png) no-repeat;
+	background-position: -156px -71px;
 }
 
 .icon-phone-big{
 	width: 57px;
 	height: 57px;
-	background: url(../img/icons/phone-big.png) no-repeat;
+	background-position: -91px -71px;
 }
 
 .icon-conversations-big{
 	width: 64px;
 	height: 64px;
-	background: url(../img/icons/conversations-big.png) no-repeat;
+	background-position: -119px 0;
 }
 
 .icon-facebook{
 	width: 10px;
 	height: 18px;
-	background: url(../img/icons/facebook.png) no-repeat;
+	background-position: -22px -217px;
 }
 
 .icon-instagram{
 	width: 18px;
 	height: 18px;
-	background: url(../img/icons/instagram.png) no-repeat;
+	background-position: -36px -217px;
 }
 
 .icon-pdf{
 	width: 59px;
 	height: 64px;
-	background: url(../img/icons/pdf.png) no-repeat;
+	background-position: -62px -247px;
 }
 
 .icon-doc{
 	width: 59px;
 	height: 64px;
-	background: url(../img/icons/doc.png) no-repeat;
+	background-position: 0 -247px;
 }
 
 .icon-download{
 	width: 40px;
 	height: 40px;
-	background: url(../img/icons/download.png) no-repeat;
+	background-position: -133px -247px;
 }
 
 .icon-coins{
 	width: 55px;
 	height: 46px;
-	background: url(../img/icons/coins.png) no-repeat;
+	background-position: -60px 0;
 }
 
 .icon-piggy-bank{
 	width: 55px;
 	height: 52px;
-	background: url(../img/icons/piggy-bank.png) no-repeat;
+	background-position: -59px -142px;
 }
 
 .icon-chart-grow{
 	width: 54px;
 	height: 55px;
-	background: url(../img/icons/chart-grow.png) no-repeat;
+	background-position: 0 0;
 }
 
 .icon-umbrella{
 	width: 55px;
 	height: 55px;
-	background: url(../img/icons/umbrella.png) no-repeat;
+	background-position:  0 -142px;
 }
 
 .icon-equipment{
 	width: 54px;
 	height: 54px;
-	background: url(../img/icons/equipment.png) no-repeat;
+	background-position: -192px 0;
 }
 
 .icon-leaf{
 	width: 38px;
 	height: 55px;
-	background: url(../img/icons/leaf.png) no-repeat;
+	background-position: 0 -71px;
 }
 
 .icon-nesting-doll{
 	width: 38px;
 	height: 55px;
-	background: url(../img/icons/nesting-doll.png) no-repeat;
+	background-position: -45px -71px;
 }
 
 .icon-shield{
 	width: 48px;
 	height: 55px;
-	background: url(../img/icons/shield.png) no-repeat;
+	background-position: -119px -142px;
+}
+
+.icon-close{
+	width: 16px;
+	height: 16px;
+	background-position: 0 -217px;
 }
