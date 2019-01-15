@@ -114,11 +114,9 @@
 						</div>
 					</div>
 					<div class="col-lg-7 md-order-1">
-						<div class="recommended-section-image wow fadeInUp" id="parallax-viewport-recommended">
-							<div class="parallax-layer" data-depth="0.05">
-								<img src="img/recommended-image-right.png" alt="" class="d-none d-sm-block">
-								<img src="img/recommended-image-mobile.png" alt="" class="d-sm-none">
-							</div>
+						<div class="recommended-section-image wow fadeInUp">
+							<img src="img/recommended-image-right.png" alt="" class="d-none d-sm-block">
+							<img src="img/recommended-image-mobile.png" alt="" class="d-sm-none">
 						</div>
 					</div>
 				</div>

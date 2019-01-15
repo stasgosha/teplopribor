@@ -9,11 +9,6 @@
 	color: $text-color;
 	width: 100%;
 
-	&:hover{
-		box-shadow: $shadow;
-		color: $primary;
-	}
-
 	.card-image{
 		flex: auto;
 		margin-bottom: 30px;
@@ -25,10 +20,22 @@
 			display: block;
 			max-width: 100%;
 			height: auto;
+			transition: all $t;
 		}
 	}
 
 	.card-text{
 		text-align: center;
+	}
+
+	&:hover{
+		box-shadow: $shadow;
+		color: $primary;
+
+		.card-image{
+			img{
+				transform: scale(1.07);
+			}
+		}
 	}
 }

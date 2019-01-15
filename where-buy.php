@@ -24,7 +24,7 @@
 			<section class="post-content">
 				<div class="container">
 					<div class="where-buy-map-block">
-						<form action="#" class="where-buy-form form wow fadeInUp">
+						<form action="#" class="where-buy-form form">
 							<div class="form-row">
 								<div class="select">
 									<select>
@@ -46,7 +46,7 @@
 								</div>
 							</div>
 						</form>
-						<div class="where-buy-map wow fadeInUp" data-wow-delay="0.2s">
+						<div class="where-buy-map" data-wow-delay="0.2s">
 							<div id="parallax-viewport-where-buy">
 								<div class="parallax-layer" data-depth="0.15">
 									<img src="img/russia.png" alt="">

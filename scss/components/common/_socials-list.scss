@@ -22,6 +22,22 @@
 
 			&:hover{
 				background: $primary;
+
+				&.facebook-link{
+					i{
+						background-position: -180px -247px;
+						transition: all 0;
+						transition-delay: 0.15s;
+					}
+				}
+
+				&.instagram-link{
+					i{
+						background-position: -194px -247px;
+						transition: all 0;
+						transition-delay: 0.15s;
+					}
+				}
 			}
 		}
 	}

@@ -9,7 +9,7 @@
 							<h1 class="tpl-h1">Производство <br>радиаторов <br>отопления</h1>
 						</div>
 						<div class="branding-label wow fadeInLeft d-none d-md-block" data-wow-delay="0.1s">
-							<img src="img/branding/branding-label.png" alt="">
+							<img src="img/branding/branding-label.svg" alt="">
 						</div>
 					</div>
 					<div class="branding-image wow fadeInUp" id="parallax-viewport-branding">
@@ -87,11 +87,9 @@
 						</div>
 					</div>
 					<div class="col-lg-7">
-						<div class="recommended-section-image wow fadeInUp" id="parallax-viewport-recommended">
-							<div class="parallax-layer" data-depth="0.05">
-								<img src="img/recommended-image.png" alt="" class="d-none d-sm-block">
-								<img src="img/recommended-image-mobile.png" alt="" class="d-sm-none">
-							</div>
+						<div class="recommended-section-image wow fadeInUp">
+							<img src="img/recommended-image.png" alt="" class="d-none d-sm-block">
+							<img src="img/recommended-image-mobile.png" alt="" class="d-sm-none">
 						</div>
 					</div>
 					<div class="col-lg-5">

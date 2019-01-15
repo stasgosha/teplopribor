@@ -6,8 +6,27 @@
 	</div>
 </section>
 <section class="innovations-section section-default-paddings">
-	<div class="section-image">
-		<img src="img/backgrounds/innovations-image.png" alt="">
+	<div class="section-images-slider">
+		<div class="slide slide-1">
+			<div class="section-image">
+				<img src="img/innovations/slide-1.png" alt="">
+			</div>
+		</div>
+		<div class="slide slide-2">
+			<div class="section-image">
+				<img src="img/innovations/slide-2.jpg" alt="">
+			</div>
+		</div>
+		<div class="slide slide-3">
+			<div class="section-image">
+				<img src="img/innovations/slide-3.png" alt="">
+			</div>
+		</div>
+		<div class="slide slide-4">
+			<div class="section-image">
+				<img src="img/innovations/slide-4.png" alt="">
+			</div>
+		</div>
 	</div>
 	<div class="container">
 		<div class="row">

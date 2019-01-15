@@ -16,6 +16,7 @@ $(document).ready(function(){
 		arrows: true,
 		vertical: true,
 		verticalSwiping: true,
+		asNavFor: '.innovations-section .section-images-slider',
 		responsive: [
 			{
 				breakpoint: 992,
@@ -36,6 +37,18 @@ $(document).ready(function(){
 	$('.innovations-list li').click(function(){
 		$('.innovations-slider').slick('slickGoTo', $(this).data('slide'));
 		$(this).addClass('current').siblings().removeClass('current');
+	});
+
+	$('.innovations-section .section-images-slider').slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: false,
+		vertical: true,
+		verticalSwiping: false,
+		asNavFor: '.innovations-slider',
+		swipe: false
 	});
 
 	// Product Images
@@ -174,6 +187,11 @@ $(document).ready(function(){
 
 	// wow.js
 	new WOW().init();
+
+	// Advantages List
+	$('.advantages-list .item-content p').each(function(i, el){
+		$(this).css({ 'margin-bottom' : '-' + $(this).outerHeight() + 'px' });
+	});
 
 	// TODO: ↓↓↓ remove this script ↓↓↓
 	// Current menu item highlithing

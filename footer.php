@@ -66,12 +66,12 @@
 					<div class="footer-block">
 						<ul class="socials-list">
 							<li>
-								<a href="https://www.facebook.com/snpoteplopribor/" target="_blank">
+								<a href="https://www.facebook.com/snpoteplopribor/" class="facebook-link" target="_blank">
 									<i class="icon-facebook"></i>
 								</a>
 							</li>
 							<li>
-								<a href="https://www.instagram.com/radiatoryteplopribor/" target="_blank">
+								<a href="https://www.instagram.com/radiatoryteplopribor/" class="instagram-link" target="_blank">
 									<i class="icon-instagram"></i>
 								</a>
 							</li>
@@ -98,12 +98,12 @@
 				<p class="tpl-body-1">E-mail: <br><a class="tpl-text-link" href="mailto:info@snpoteplopribor.ru">info@snpoteplopribor.ru</a></p>
 				<ul class="socials-list">
 					<li>
-						<a href="https://www.facebook.com/snpoteplopribor/" target="_blank">
+						<a href="https://www.facebook.com/snpoteplopribor/" class="facebook-link" target="_blank">
 							<i class="icon-facebook"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/radiatoryteplopribor/" target="_blank">
+						<a href="https://www.instagram.com/radiatoryteplopribor/" class="instagram-link" target="_blank">
 							<i class="icon-instagram"></i>
 						</a>
 					</li>
