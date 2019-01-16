@@ -63,7 +63,7 @@
 			<h3 class="tpl-h3">Смотрите также</h3>
 			<div class="recommendations-slider default-slide-paddings">
 				<div class="slide">
-					<a href="#" class="white-card wow fadeInUp" data-wow-delay="0s">
+					<a href="product-card.php" class="white-card wow fadeInUp" data-wow-delay="0s">
 						<div class="card-image">
 							<img src="img/products/bimetallic.png" alt="">
 						</div>
@@ -73,7 +73,7 @@
 					</a>
 				</div>
 				<div class="slide">
-					<a href="#" class="white-card wow fadeInUp" data-wow-delay="0.1s">
+					<a href="product-card.php" class="white-card wow fadeInUp" data-wow-delay="0.1s">
 						<div class="card-image">
 							<img src="img/products/aluminum.png" alt="">
 						</div>
@@ -83,7 +83,7 @@
 					</a>
 				</div>
 				<div class="slide">
-					<a href="#" class="white-card wow fadeInUp" data-wow-delay="0s">
+					<a href="product-card.php" class="white-card wow fadeInUp" data-wow-delay="0s">
 						<div class="card-image">
 							<img src="img/products/bimetallic.png" alt="">
 						</div>
@@ -93,7 +93,7 @@
 					</a>
 				</div>
 				<div class="slide">
-					<a href="#" class="white-card wow fadeInUp" data-wow-delay="0.1s">
+					<a href="product-card.php" class="white-card wow fadeInUp" data-wow-delay="0.1s">
 						<div class="card-image">
 							<img src="img/products/aluminum.png" alt="">
 						</div>
