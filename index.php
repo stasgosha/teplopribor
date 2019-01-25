@@ -64,7 +64,7 @@
 						</a>
 					</div>
 					<div class="slide">
-						<a href="product-card.php" class="white-card wow fadeInUp" data-wow-delay="0.2s">
+						<a href="accessories.php" class="white-card wow fadeInUp" data-wow-delay="0.2s">
 							<div class="card-image">
 								<img src="img/products/fittings.png" alt="">
 							</div>
