@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			<div class="col-xl-4">
-				<div class="dealer-section-image" id="parallax-viewport-dealer">
+				<div class="dealer-section-image">
 					<div class="parallax-layer" data-depth="0.15">
 						<img src="img/dealer-image.png" alt="">
 					</div>

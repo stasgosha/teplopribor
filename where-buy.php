@@ -47,7 +47,7 @@
 							</div>
 						</form>
 						<div class="where-buy-map" data-wow-delay="0.2s">
-							<div id="parallax-viewport-where-buy">
+							<div class="parallax-viewport-where-buy">
 								<div class="parallax-layer" data-depth="0.15">
 									<img src="img/russia.png" alt="">
 								</div>

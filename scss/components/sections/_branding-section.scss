@@ -103,6 +103,19 @@
 		position: relative;
 		margin-bottom: 55px;
 
+		p{
+			opacity: 0;
+			transform: translateY(15px);
+			transition: all $t;
+		}
+
+		&:hover{
+			p{
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
 		&:last-child{
 			margin-bottom: 0;
 		}
