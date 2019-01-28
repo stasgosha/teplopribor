@@ -39,6 +39,13 @@
 			}
 		}
 
+		.slide-1{
+			.section-image{
+				left: calc(50% - 260px);
+				transform: none;
+			}
+		}
+
 		.slide-2{
 			.section-image{
 				top: 50%;

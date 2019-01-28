@@ -48,8 +48,8 @@
 							<div class="card-header">
 								<div class="header-number">01</div>
 								<div class="header-content">
-									<p class="item-caption">Smart design</p>
-									<p class="item-subcaption">100% умная конструкция.</p>
+									<p class="item-caption">Total Bimetall</p>
+									<p class="item-subcaption">100% надёжность</p>
 								</div>
 							</div>
 							<div class="card-content tpl-typography mCustomScrollbar" data-mcs-theme="dark">
