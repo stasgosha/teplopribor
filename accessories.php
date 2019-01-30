@@ -1,4 +1,4 @@
-<?php $page_title = 'Комплектующие'; ?>
+<?php $page_title = 'Запчасти и комплектующие'; ?>
 <?php include('header.php'); ?>
 	<div class="page-content">
 		<section class="page-header">
@@ -17,7 +17,7 @@
 						<meta itemprop="position" content="2" />
 					</li>
 				</ol>
-				<h1 class="tpl-h1 page-title">Комплектующие</h1>
+				<h1 class="tpl-h1 page-title">Запчасти и комплектующие</h1>
 			</div>
 		</section>
 		<div class="inner-page-wrapper">

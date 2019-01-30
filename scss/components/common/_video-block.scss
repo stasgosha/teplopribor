@@ -27,16 +27,16 @@
 
 		.play{
 			cursor: pointer;
-			width: 108px;
-			height: 108px;
+			width: 90px;
+			height: 90px;
 			border-radius: 50%;
 			background: #fff;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			position: absolute;
-			left: calc(50% - 54px);
-			top: calc(50% - 54px);
+			left: calc(50% - 45px);
+			top: calc(50% - 45px);
 			z-index: 5;
 			transition: all $t;
 
@@ -50,8 +50,8 @@
 				height: 65px;
 				display: block;
 				background: url(../img/icons/icons-sprite.png) no-repeat -173px -142px;
-				margin-right: -13px;
-				transform: scale(0.85);
+				margin-right: -7px;
+				transform: scale(0.6);
 			}
 		}
 	}
